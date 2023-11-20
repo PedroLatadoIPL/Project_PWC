@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Adota-me! | Contactos</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="assets/css/Nav_Fotter.css" rel="stylesheet"/>
+        <link href="assets/css/Contactos_Style.css" rel="stylesheet"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    </head>
+    <body>
+
+      <!-- Navbar -->
+       <div class="conteiner">
+            <header>
+                <nav class="navbar navbar-expand">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="HomePage.html">
+                        <img src="assets/img/Logo.png" alt="Logo" height="50px">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                          <a class="nav-link" aria-current="page" href="HomePage.html">Home</a>
+                          <a class="nav-link" href="Loja.html">Loja</a>
+                          <a class="nav-link" href="SobreNos.html">Sobre nós</a>
+                          <a class="nav-link" href="Favoritos.html">Favoritos</a>
+                          <a class="nav-link active" href="Contactos.html">Contactos</a>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+            </header>
+       </div>
+
+    <!-- Conteudo -->
+    <div class="vazio">
+      <p class="banner-txt">Contacto-nos</p>
+      <p class="banner-txt-min">Tem duvidas e percisa de ajuda, entre em contacto connosco.</p>
+    </div>
+
+    <!-- Formulario Email-->
+
+    <div class="main-box">
+      <div class="row">
+        <div class="col contactos">
+          <div class="contactos-box">
+            <form>
+              <legend class="texto">Contacto-nos:</legend>
+              <div class="mb-3">
+                <label for="EmailInput" class="form-label">Email:</label>
+                <input type="text" id="EmailInput" class="txt-box" placeholder="Email">
+              </div>
+              <label for="floatingTextarea2">Faça as suas questões:</label>
+              <div class="form-floating">
+                <textarea class="txt-box-area" placeholder="Texto" id="floatingTextarea2"></textarea>
+              </div>
+              <div class="mb-3">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="FieldsetCheck">
+                  <label class="form-check-label" for="disabledFieldsetCheck">Aceita compartilhar os seus dados connosco</label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+        </div>
+        <div class="col espaco-img">
+          <img src="assets/img/contact_us.png" class="img-contact"/>
+        </div>
+      </div>
+    </div>
+    <!-- Fotter -->
+      <div id="fotter" class="mt-4 p-4 text-white text-center">
+          <p>Pedro Latado, João Tavares, Guilherme Abreu</p>
+          <p>Unidade Curricular: PWC</p>
+      </div>  
+      
+    <!-- Zona Script's -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>

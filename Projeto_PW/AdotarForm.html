@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Adota-me!</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="assets/css/Nav_Fotter.css" rel="stylesheet"/>
+        <link href="assets/css/AdotarForm.css" rel="stylesheet"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    </head>
+    <body>
+
+    <!-- Navbar -->
+    <header class="conteiner">
+        <nav class="navbar navbar-expand">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="HomePage.html">
+                <img src="assets/img/Logo.png" alt="Logo" height="50px">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" aria-current="page" href="HomePage.html">Home</a>
+                  <a class="nav-link" href="Loja.html">Loja</a>
+                  <a class="nav-link" href="SobreNos.html">Sobre nós</a>
+                  <a class="nav-link" href="Favoritos.html">Favoritos</a>
+                  <a class="nav-link" href="Contactos.html">Contactos</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>        
+
+    <!-- Conteudo -->
+
+    <div class="vazio">
+      <p class="banner-txt">Formulário para adoção</p>
+      <p class="banner-txt-min">Obrigado pelo interesse em adoptar um dos nossos animais</p>
+    </div>
+
+    <!-- Form -->
+
+    <div class="main-box">
+
+      <!-- Nome -->
+      <div class="mb-3">
+        <label for="inserircontacto" class="texto">Nome</label>
+        <input type="text" class="txt-box" id="inserircontacto">
+        <div id="inserircontacto" class="form-text"></div>
+      </div>
+
+      <!-- Contacto Telefónico -->
+      <div class="mb-3">
+        <label for="inserircontacto" class="texto">Contacto Telefónico</label>
+        <input type="text" class="txt-box" id="inserircontacto">
+        <div id="inserircontacto" class="form-text"></div>
+      </div>
+
+      <!-- Horário preferencial de contacto -->
+      <div class="mb-3">
+        <label for="Horariopreferecial" class="texto">Horário preferencial de contacto</label>
+        <input type="text" class="txt-box" id="Horariopreferecial">
+        <div id="Horariopreferecial" class="form-text"></div>
+      </div>
+
+      <!-- Email -->
+      <div class="mb-3">
+        <label for="inseriremail" class="texto">Email</label>
+        <input type="email" class="txt-box" id="inseriremail">
+        <div id="inseriremail" class="form-text"></div>
+      </div>
+
+      <!-- Idade -->
+      <div class="mb-3">
+        <label for="inseriridade" class="texto">Idade</label>
+        <input type="number" class="txt-box" id="inseriridade">
+        <div id="inseriridade" class="form-text"></div>
+      </div>
+
+      <!-- Morada -->
+      <div class="mb-3">
+        <label for="inserirmorada" class="texto">Morada</label>
+        <div class="form-floating">
+          <textarea class="txt-box-area" placeholder="Texto" id="floatingTextarea2"></textarea>
+        </div>
+        <div id="inserirmorada" class="form-text"></div>
+      </div>
+
+      <!-- Cidade -->
+      <div class="mb-3">
+        <label for="inserircidade" class="texto">Cidade</label>
+        <input type="text" class="txt-box" id="inserircidade">
+        <div id="inserircidade" class="form-text"></div>
+      </div>
+
+      <!-- Profissão -->
+      <div class="mb-3">
+        <label for="inserirprofissão" class="texto">Profissão</label>
+        <input type="text" class="txt-box" id="inserirprofissao">
+        <div id="inserirprofissao" class="form-text"></div>
+      </div>
+
+      <!-- animal especifico -->
+      <div class="mb-3">
+        <label for="animalespecifico" class="texto">Se gostaria de adoptar um animal específico, indique por favor o nome do animal.</label>
+        <input type="text" class="txt-box" id="animalespecifico">
+        <div id="animalespecifico" class="form-text"></div>
+      </div>
+
+      <!-- Sexo do animal -->
+      <label class="texto-radio">Caso não procure adoptar um animal específico, indique se tem preferência pelo sexo do animal.</label>  
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="sexodoanimal1">
+        <label class="form-check-label" for="flexRadioDefault1">Femêa</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="sexodoanimal2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">Macho</label>
+      </div> 
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="sexodoanimal3" checked>
+        <label class="form-check-label" for="flexRadioDefault2">indeferente</label>
+      </div>
+
+      <!-- objetivo da adoção -->
+      <label class="texto-radio">Qual o objetivo da adopção? </label>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="opção1">
+        <label class="form-check-label" for="defaultCheck1">Companhia para outro gato</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="opção2">
+        <label class="form-check-label" for="defaultCheck2">Companhia</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="opção3">
+        <label class="form-check-label" for="defaultCheck2">Criação</label>
+      </div>
+
+      <!-- Tipo de habição -->
+      <label class="texto-radio">Tipo de habitação</label>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="sexodoanimal2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">Apartamento</label>
+      </div> 
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="sexodoanimal3" checked>
+        <label class="form-check-label" for="flexRadioDefault2">Casa com quintal/acesso ao exterior</label>
+      </div>
+
+      <!-- jardim -->
+      <label class="texto-radio">Se tem jardim, este está completamente vedado?</label>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="opção1">
+        <label class="form-check-label" for="defaultCheck1">Sim</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="opção2">
+        <label class="form-check-label" for="defaultCheck2">Não</label>
+      </div>
+
+      <!-- tipo de habitação -->
+      <label class="texto-radio">A habitação é:</label>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="opção1">
+        <label class="form-check-label" for="defaultCheck1">Própria</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="opção2">
+        <label class="form-check-label" for="defaultCheck2">Arrendada</label>
+      </div>
+
+      <!-- Quantos adultos vivem na casa? -->
+      <div class="mb-3">
+        <label for="cassapessoas" class="texto">Quantos adultos vivem na casa?</label>
+        <input type="text" class="txt-box" id="cassapessoas">
+        <div id="cassapessoas" class="form-text"></div>
+      </div>
+
+      <!-- crianças em casa -->
+      <label class="texto-radio">Vivem crianças na casa? Se sim, indique o intervalo de idades. </label>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="opção1">
+        <label class="form-check-label" for="defaultCheck1">Não existem crianças</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="opção2">
+        <label class="form-check-label" for="defaultCheck2">5 anos</label>
+      </div>
+      <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="opção3">
+          <label class="form-check-label" for="defaultCheck2">5 a 10 anos</label>
+        </div>
+      <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="opção4">
+          <label class="form-check-label" for="defaultCheck2">>10 anos</label>
+      </div>
+
+      <!-- Se a casa é visitada -->
+      <label class="texto-radio">A casa é visitada frequentemente por crianças?</label>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção1" checked>
+        <label class="form-check-label" for="flexRadioDefault2">Sim</label>
+      </div> 
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção2" checked>
+        <label class="form-check-label" for="flexRadioDefault2"> Não</label>
+      </div>
+
+      <!-- quantas horas o animal vai passar sozinho -->
+      <div class="mb-3">
+        <label for="horassozinhoanimal" class="texto">Quantas horas por dia, em média, passará o animal, sozinho em casa?</label>
+        <input type="text" class="txt-box" id="horassozinhoanimal">
+        <div id="horassozinhoanimal" class="form-text"></div>
+      </div>
+
+      <!-- outros animais em casa -->
+      <div class="mb-3">
+        <label for="outoanimal" class="texto">Tem outros animais em casa e/ou a seu cargo? Se sim, especifique por favor o tipo e a idade.</label>
+        <input type="text" class="txt-box" id="outoanimal">
+        <div id="outoanimal" class="form-text"></div>
+      </div>
+
+      <!-- Parte 2 -->
+      <label class="texto-radio">Que tipo de personalidade espera encontrar no animal? Preencha por favor as próximas questões</label>
+
+      <!-- tipo de personaliade do animal -->
+      <p class="texto-radio-2">Goste de crianças:</p>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção1" checked>
+        <label class="form-check-label" for="flexRadioDefault2">Muito importante</label>
+      </div> 
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">importante</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção3" checked>
+        <label class="form-check-label" for="flexRadioDefault2">Pouco importante</label>
+      </div>
+
+      <!-- Animal sociavel -->
+      <p class="texto-radio-2">Sociável com outros animais:</p>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção1" checked>
+        <label class="form-check-label" for="flexRadioDefault2">Muito importante</label>
+      </div> 
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">importante</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção3" checked>
+        <label class="form-check-label" for="flexRadioDefault2">Pouco importante</label>
+      </div>
+
+      <!-- Animal importase com estranhos -->
+      <p class="texto-radio-2">Não se importe com estranhos: </p>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção1" checked>
+        <label class="form-check-label" for="flexRadioDefault2">Muito importante</label>
+      </div> 
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">importante</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção3" checked>
+        <label class="form-check-label" for="flexRadioDefault2">Pouco importante</label>
+      </div>
+
+      <!-- Animal esta cadstardo -->
+      <p class="texto-radio-2">Esteja esterilizado/castrado:</p>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção1" checked>
+        <label class="form-check-label" for="flexRadioDefault2">Muito importante</label>
+      </div> 
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">importante</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção3" checked>
+        <label class="form-check-label" for="flexRadioDefault2">Pouco importante</label>
+      </div>
+
+      <!-- gosta de ser pegado ao colo -->
+      <p class="texto-radio-2">Goste de ser pegado ao colo:</p>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção1" checked>
+        <label class="form-check-label" for="flexRadioDefault2">Muito importante</label>
+      </div> 
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">importante</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção3" checked>
+        <label class="form-check-label" for="flexRadioDefault2">Pouco importante</label>
+      </div>
+
+      <!-- gosta de ser calmo -->
+      <p class="texto-radio-2">Que seja calmo:</p>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção1" checked>
+        <label class="form-check-label" for="flexRadioDefault2">Muito importante</label>
+      </div> 
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">importante</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção3" checked>
+        <label class="form-check-label" for="flexRadioDefault2">Pouco importante</label>
+      </div>
+
+      <!-- comportamento do animal -->
+      <p class="texto-radio-2">Que se comporte bem quando fica sozinho:</p>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção1" checked>
+        <label class="form-check-label" for="flexRadioDefault2">Muito importante</label>
+      </div> 
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">importante</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção3" checked>
+        <label class="form-check-label" for="flexRadioDefault2">Pouco importante</label>
+      </div>
+
+      <!-- Atividade do animal -->
+      <p class="texto-radio-2">Atividade do animal:</p>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="opção1">
+        <label class="form-check-label" for="defaultCheck1">Calmo</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="opção2">
+        <label class="form-check-label" for="defaultCheck2">Moderado ativo</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="opção3">
+        <label class="form-check-label" for="defaultCheck2">Ativo</label>
+      </div>
+      <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="opção4">
+          <label class="form-check-label" for="defaultCheck2">Indeferente</label>
+      </div>
+      
+
+      <!-- Será o seu primeiro animal? -->
+      <p class="texto-radio-2">Será o seu primeiro animal?</p>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="opção1">
+        <label class="form-check-label" for="defaultCheck1">Sim</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="opção2">
+        <label class="form-check-label" for="defaultCheck2">Não</label>
+      </div>
+
+      <!-- contenos a sua experiencia -->
+      <div class="mb-3">
+        <label for="inserirexperiencia" class="texto">Se não, conte-nos a sua experiência por favor.</label>
+        <input type="text" class="txt-box" id="inserirexperiencia">
+        <div id="inserirexperiencia" class="form-text"></div>
+      </div>
+
+      <!-- A sua ausência -->
+      <p class="texto-radio-2">Na sua ausência (férias p.ex.) como pretende deixar o animal? </p>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="opção1">
+        <label class="form-check-label" for="defaultCheck1">Ficará aos cuidados de um familiar/conhecido;</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="opção2">
+        <label class="form-check-label" for="defaultCheck2">Ficará em hotel;</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="opção3">
+        <label class="form-check-label" for="defaultCheck2">Irá comigo de férias.</label>
+      </div>
+
+      <!-- O animal ficará preso em alguma situação?  -->
+      <p class="texto-radio-2">O animal ficará preso em alguma situação? </p>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção1" checked>
+        <label class="form-check-label" for="flexRadioDefault2">Sim</label>
+      </div> 
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">Não</label>
+      </div>
+
+      <!-- Se tem algum veterinário -->
+      <div class="mb-3">
+        <label for="viterinário" class="texto">Tem algum veterinário preferido? Se sim, deixe o seu nome e contacto.</label>
+        <input type="text" class="txt-box" id="viterinário">
+        <div id="viterinário" class="form-text"></div>
+      </div>
+
+      <!-- No caso de acidente, irá recorrer a um veterinário?   -->
+      <p class="texto-radio-2">No caso de acidente, irá recorrer a um veterinário? </p>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção1" checked>
+        <label class="form-check-label" for="flexRadioDefault2">Sim</label>
+      </div> 
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">Não</label>
+      </div>
+
+      <!-- Se a conta for elevada -->
+      <div class="mb-3">
+        <label for="pagamento" class="texto">Se a conta for elevada, o que fará?</label>
+        <input type="text" class="txt-box" id="pagamento">
+        <div id="pagamento" class="form-text"></div>
+      </div>
+
+      <!-- Tipo de alimentação -->
+      <p class="texto-radio-2">Que tipo de alimentação pretende dar ao animal?</p>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="opção1">
+        <label class="form-check-label" for="defaultCheck1">Ração seca</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="opção2">
+        <label class="form-check-label" for="defaultCheck2">Ração Humida</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="opção3">
+        <label class="form-check-label" for="defaultCheck2">Comida caseira</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="opção3">
+        <label class="form-check-label" for="defaultCheck2">resto de refeições</label>
+      </div>
+
+      <!-- O que está nos seus planos para os próximos 10/15 anos?  -->
+      <p class="texto-radio-2">O que está nos seus planos para os próximos 10/15 anos? </p>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="opção1">
+        <label class="form-check-label" for="defaultCheck1">Ter filhos</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="opção2">
+        <label class="form-check-label" for="defaultCheck2">Viajar</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="opção3">
+        <label class="form-check-label" for="defaultCheck2">Casar</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="opção3">
+        <label class="form-check-label" for="defaultCheck2">Mudar de país/cidade/etc</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="opção3">
+        <label class="form-check-label" for="defaultCheck2">Mudar de casa</label>
+      </div>
+
+      <!-- Se algum familiar tem animais -->
+      <div class="mb-3">
+        <label for="temanimais" class="texto">Algum dos elementos do seu agregado familiar, ou amigos/parentes próximos, tem alergia a cães ou gatos?</label>
+        <input type="text" class="txt-box" id="temanimais">
+        <div id="temanimais" class="form-text"></div>
+      </div>
+
+      <!-- Em caso de gravidez -->
+      <div class="mb-3">
+        <label for="gravidez" class="texto">Em caso de gravidez, fará o teste da toxoplasmose?</label>
+        <input type="text" class="txt-box" id="gravidez">
+        <div id="gravidez" class="form-text"></div>
+      </div>
+
+      <!-- Se for positivo, o que fará?  -->
+      <div class="mb-3">
+        <label for="sesim" class="texto">Se for positivo, o que fará? </label>
+        <input type="text" class="txt-box" id="sesim">
+        <div id="sesim" class="form-text"></div>
+      </div>
+
+      <!-- No caso de acidente, irá recorrer a um veterinário?   -->
+      <p class="texto-radio-2">Gostaria de continuar a ter o nosso apoio/conselhos, depois de adoptar o animal?</p>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção1" checked>
+        <label class="form-check-label" for="flexRadioDefault2">Sim</label>
+      </div> 
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">Não</label>
+      </div>
+
+      <!-- Botão para escolher ficheiro -->
+      <div class="espaco"></div>
+      <form action="">
+        <input type="file" id="myFile" name="filename">
+      </form>
+
+      <!-- temos e condições  -->
+      <p>Vamos manter os seus dados em segurança, enquanto assim o pretender, pode eliminar ou editar.Consulte a nossa Política de Privacidade. </p>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opção1" checked>
+        <label class="form-check-label" for="flexRadioDefault2">Li e concordo com a Política de Privacidade.</label>
+      </div>
+
+      <!-- FIM -->
+      <p>* Campos de preenchimento obrigatório</p>
+      <input type="submit" class="btn btn-primary"> 
+
+    </div>
+
+    <!-- Fotter -->
+      <div id="fotter" class="mt-4 p-4 text-white text-center">
+          <p>Pedro Latado, João Tavares, Guilherme Abreu</p>
+          <p>Unidade Curricular: PWC</p>
+      </div>  
+      
+    <!-- Zona Script's -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>

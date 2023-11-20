@@ -1,0 +1,55 @@
+.conteiner {
+    z-index: 1;
+    width: 100%;
+    background-color: #333;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.60);
+}
+
+#navbarNavAltMarkup .nav-link {
+    color: white;
+    font-size: 18px;
+}
+
+    #navbarNavAltMarkup .nav-link:hover {
+        color: #2cada8;
+    }
+
+    #navbarNavAltMarkup .nav-link.active {
+        color: #2cada8;
+    }
+
+#fotter {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #333;
+}
+
+.vazio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10rem;
+    /*background-color: red;*/
+}
+
+.banner-txt {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 0;
+    font-family: sans-serif;
+    color: #2cada8;
+    cursor: default;
+}
+
+.banner-txt-min {
+    font-size: 18px;
+    font-weight: 500;
+    font-weight: bold;
+    margin-top: -2%;
+    font-family: sans-serif;
+    cursor: default;
+}
